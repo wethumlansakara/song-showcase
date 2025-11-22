@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5 - 026</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f3f3;
+            margin: 0;
+            padding: 20px;
+        }
+        @media screen and (min-width: 500px) {
+            body {
+                background-color: lightgreen;
+            }
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+            text-decoration: underline;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            font-size: 50px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            font-size: 24px;
+            color: #333;
+        }
+        h3 {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #777;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .item {
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+        }
+        .item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover; 
+            border-radius: 8px;
+        }
+        .caption {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .desc {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Song Collection</h1>
+    <h2>Explore our curated list of songs!</h2>
+    
+    <div class="container">
+
+        <div class="item">
+            <a href="https://youtu.be/_-gYF0XdxiM?si=UGZyYxLa-bdRv344" target="_blank">
+                <img src="1.jpg" alt="Song 1">
+            </a>
+            <p class="caption">Awasan Na | අවසන් නෑ</p>
+            <p class="desc">Artist: Jayathu Sandaruwan</p>
+        </div>
+        <div class="item">
+            <a href="https://youtu.be/RCfydhwXXNE?si=JE3y6uozoC7lPI5k" target="_blank">
+                <img src="2.jpg" alt="Song 2">
+            </a>
+            <p class="caption">Fathima | ෆාතිමා</p>
+            <p class="desc">Artist: Pawan Minon</p>
+        </div>
+        <div class="item">
+            <a href="https://youtu.be/4jHaEfZRGJs?si=obUctJ_kZhkxH9HF" target="_blank">
+                <img src="3.jpg" alt="Song 3">
+            </a>
+            <p class="caption">Hama Waradi Keruwe | හැම වැරදි කෙරුවේ</p>
+            <p class="desc">Artist: Jayathu Sandaruwan</p>
+        </div>
+        <div class="item">
+            <a href="https://youtu.be/-ksa8ANrlSc?si=KYHrC26YcwxxUayd" target="_blank">
+                <img src="4.jpg" alt="Song 4">
+            </a>
+            <p class="caption">Punchi Kelle | පුංචි කෙල්ලේ</p>
+            <p class="desc">Artist: Nalinda Ranasinghe</p>
+        </div>
+        <div class="item">
+            <a href="https://youtu.be/cmSKgMA2Erg?si=IxljWHS24ZXXdwzs" target="_blank">
+                <img src="5.jpg" alt="Song 5">
+            </a>
+            <p class="caption">Duka Nathi Adarayak | දුක නැති ආදරයක්</p>
+            <p class="desc">Artist: Janaka Sooriyabandara</p>
+        </div>
+        <div class="item">
+            <a href="https://youtu.be/SCjOmvDIWxc?si=kBzmnRj3NmcU1O17" target="_blank">
+                <img src="6.jpg" alt="Song 6">
+            </a>
+            <p class="caption">Ayeth Rawaten Na | ආයෙත් රැවටෙන් නෑ</p>
+            <p class="desc">Artist: Thushara Joshap</p>
+        </div>
+        <div class="item">
+            <a href="https://youtu.be/FtsbtzIlkqo?si=Z-xSnbXNaoGH1z2K" target="_blank">
+                <img src="7.jpg" alt="Song 7">
+            </a>
+            <p class="caption">Waradi karala | වැරදි කරලා</p>
+            <p class="desc">Artist: Jude Rogens</p>
+        </div>
+        <div class="item">
+            <a href="https://youtu.be/Jyinqrz-0v4?si=xBVbeaUCVew0W5xM" target="_blank">
+                <img src="8.jpg" alt="Song 8">
+            </a>
+            <p class="caption">Sadahata Sinna Wela | සදහට සින්න වෙලා</p>
+            <p class="desc">Artist: Jayathu Sandaruwan</p>
+        </div>
+        <div class="item">
+            <a href="https://youtu.be/oKTfof5quQ0?si=TdVK1ckIjaHzFx--" target="_blank">
+                <img src="9.jpg" alt="Song 9">
+            </a>
+            <p class="caption">Thahanam | තහනම් දැන්</p>
+            <p class="desc">Artist: Viraj Perera</p>
+        </div>
+        <div class="item">
+            <a href="https://youtu.be/OccSl0me3tg?si=32agROeVapJv47Vx" target="_blank">
+                <img src="10.jpg" alt="Song 10">
+            </a>
+            <p class="caption">Sudu Manika | සුදු මැණික</p>
+            <p class="desc">Artist: Nalinda Ranasinghe</p>
+        </div>
+        <div class="item">
+            <a href="https://youtu.be/ObB0LXSEiq8?si=dI5WZds-huM7tgAq" target="_blank">
+                <img src="11.jpg" alt="Song 11">
+            </a>
+            <p class="caption">Tharahak Na | තරහක් නෑ</p>
+            <p class="desc">Artist: Harsha Danosh</p>
+        </div>
+        <div class="item">
+            <a href="https://youtu.be/ooE2EvC2iKM?si=L4V6rybUk8wWr-lJ" target="_blank">
+                <img src="12.jpg" alt="Song 12">
+            </a>
+            <p class="caption">Himi Nathi Senehe | හිමි නැති සෙනෙහේ</p>
+            <p class="desc">Artist: Asanka Priyamantha</p>
+        </div>
+        <div class="item">
+            <a href="https://youtu.be/kBDYDaagDtE?si=_hw7IF26xhx5fa-r" target="_blank">
+                <img src="13.jpg" alt="Song 13">
+            </a>
+            <p class="caption">Adare Pujaniyai | ආදරේ පූජනීයයි</p>
+            <p class="desc">Artist: Adare Pujaniyai</p>
+        </div>
+        <div class="item">
+            <a href="https://youtu.be/azt_mny7yvM?si=QbOOIrMGLUJ1nbap" target="_blank">
+                <img src="14.jpg" alt="Song 14">
+            </a>
+            <p class="caption">Heen Sare | හීන් සරේ</p>
+            <p class="desc">Artist: Thushara Subasinghe</p>
+        </div>
+        <div class="item">
+            <a href="https://youtu.be/gXXU4QwK7wc?si=dYJAQn6rPJ5A3L2A" target="_blank">
+                <img src="15.jpg" alt="Song 15">
+            </a>
+            <p class="caption">Athmayedi | ආත්මයේදී</p>
+            <p class="desc">Artist: Rukshan Madushanka</p>
+        </div>
+    </div>
+
+    <h3>&copy; Wethum Lansakara</h3>
+</body>
+</html>
